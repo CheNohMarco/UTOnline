@@ -1,0 +1,88 @@
+:root {
+    --grisFooterText: #C7C8C9;
+    --grisFooter: #212327;
+    --verdeInstitucional: #00AB84;
+    --negro: black;
+    --blanco: white;
+}
+
+nav {
+    background-color: var(--verdeInstitucional);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--blanco);
+}
+
+.jumbotron {
+    padding: 5%;
+}
+
+#div-btn {
+    margin: 5%;
+}
+
+#div-btn button {
+    background-color: var(--verdeInstitucional);
+    color: var(--blanco);
+}
+
+footer {
+    background-color: var(--grisFooter);
+}
+
+footer #footer-div {
+    padding: 4%;
+    padding-bottom: 1em;
+}
+
+#utText {
+    padding: 4%;
+}
+
+.bg-line {
+    width: 46.8%;
+}
+
+footer p {
+    color: var(--grisFooterText);
+    text-align: center;
+}
+
+#textLeft {
+    color: var(--grisFooterText);
+    text-align: left;
+}
+
+hr {
+    width: 100%;
+    background-color: var(--grisFooterText);
+}
+
+.col-6 {
+    margin-top: 35px;
+}
+
+.list-inline {
+    float: right !important;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-dark {
+    background-color: var(--grisFooter);
+}
+
+.contenido {
+    float: left;
+    margin: -13px;
+}
+
+.social-icon {
+    border: 2px solid #424447;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    padding: 0;
+    line-height: 36px;
+}
