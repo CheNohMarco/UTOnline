@@ -6,6 +6,7 @@
     --blanco: white;
 }
 
+nav {
     background-color: var(--verdeInstitucional);
 }
 
