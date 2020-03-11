@@ -10,7 +10,7 @@ img {
     height: 100%;
 }
 
-a {
+p.card-text {
     text-decoration: none;
     color: var(--negro);
 }

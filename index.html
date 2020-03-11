@@ -1,3 +1,6 @@
+
+
+
 <!doctype html>
 <html lang="en">
 
@@ -13,7 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="../css/styleLogin.css">
+    <link rel="stylesheet" href="css/styleLogin.css">
     <title>Login</title>
 </head>
 
@@ -26,34 +29,40 @@
         <div class="box-right text-center">
 
             <div class="login-from">
-                <img id="imgLogo" src="../img/logo.png">
+                <img id="imgLogo" src="img/logo.png">
                 <p id="p">UT-Semipresencial</p>
-                <div class="form-group">
-                    <label class="label"><b>Matricula</b></label>
-                    <input type="number" class="form-control input">
-                </div>
 
+				<div class="loginBox">
 
-                <div class="form-group">
-                    <label class="label"><b>Contraseña</b></label>
-                    <div class="input-group">
-                        <input id="password" type=" Password " Class="form-control ">
-                        <div class="input-group-append ">
-                            <span id="ojo " onclick="mostrarPassword2() " class="fa fa-eye-slash icon input "></span>
-                        </div>
-                    </div>
-                </div>
-                <p><strong>¿Has olvidado tu contraseña?</strong></p>
-                <a href="Index.html" class="btn" role="button" id="buton ">
-                    <!-- <button> -->
-                    <i class="fa fa-sign-in" aria-hidden="true"></i>
-                    <b>Iniciar sesion</b>
-                    <!-- </button> -->
-                </a>
-
-
-                <br>
-                <br>
+					<form action="check-login.php" method="post">                           	
+						<div class="form-group">
+							<label class="label"><b>Matricula</b></label>
+							<input type="email" class="form-control input" name="email" placeholder="Email" required>
+						</div>							
+						<div class="form-group">
+							<label class="label"><b>Contraseña</b></label>
+							<input type="password" class="form-control input" name="password" placeholder="Password" required>
+						</div>							    
+							<button type="submit" class="btn btn-success btn-block" id="btn-login"><i class="fa fa-sign-in" aria-hidden="true">
+								</i>
+								<b >Iniciar sesion</b>
+							</button>
+					</form>
+					<!-- Collapse a form when user click Lost your password? link-->
+					<p><a href="#showForm" data-toggle="collapse" aria-expanded="false" aria-controls="collapse">¿Olvidaste tu contraseña?</a></p>	
+					<div class="collapse" id="showForm">
+						<div class='well'>
+							<form action="password-recovery.php" method="post">
+								<div class="form-group">										
+									<input type="email" class="form-control" name="email" placeholder="Enter the email associated with the password." required>
+								</div>
+								<button type="submit" class="btn btn-dark">Recover Password</button>
+							</form>								
+						</div>
+					</div>
+											
+					<!-- <hr><p>¿Quieres crear una cuenta? <a href="index.html" title="Create an account">crear cuenta</a>.</p>								 -->
+				</div><!-- /.loginBox -->	
 
             </div>
 
@@ -87,3 +96,6 @@
 </body>
 
 </html>
+
+
+
