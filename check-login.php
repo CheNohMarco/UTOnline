@@ -61,10 +61,10 @@ session_start();
 				echo "
 				<div class='jumbotron'>
 				<h1 class='display-4'>Plan de estudio</h1>
-				<p class='lead'>Bienvenido: $row[Name].</p>
+				<p class='lead'>Bienvenido $row[Name].</p>
 				<hr class='my-4'>
-				<p class='lead'>INGENIERÍA EN TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIÓN</br>
-					Matrícula: 17391005</p>
+				<p class='lead'>Carrera: Ingieria en Tecnologias de la Información y Comunicación </br>
+					Matrícula:  17391005 </p>
 				</div>
 				";	
 			
