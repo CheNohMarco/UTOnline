@@ -1,7 +1,6 @@
-
-
-
 <!doctype html>
+
+
 <html lang="en">
 
 <head>
@@ -32,37 +31,38 @@
                 <img id="imgLogo" src="img/logo.png">
                 <p id="p">UT-Semipresencial</p>
 
-				<div class="loginBox">
+                <div class="loginBox">
 
-					<form action="check-login.php" method="post">                           	
-						<div class="form-group">
-							<label class="label"><b>Matricula</b></label>
-							<input type="email" class="form-control input" name="email" placeholder="Email" required>
-						</div>							
-						<div class="form-group">
-							<label class="label"><b>Contraseña</b></label>
-							<input type="password" class="form-control input" name="password" placeholder="Password" required>
-						</div>							    
-							<button type="submit" class="btn btn-success btn-block" id="btn-login"><i class="fa fa-sign-in" aria-hidden="true">
+                    <form action="check-login.php" method="post">
+                        <div class="form-group">
+                            <label class="label"><b>Correo</b></label>
+                            <input type="email" class="form-control input" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="label"><b>Contraseña</b></label>
+                            <input type="password" class="form-control input" name="password" placeholder="Password" required>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block" id="btn-login"><i class="fa fa-sign-in" aria-hidden="true">
 								</i>
 								<b >Iniciar sesion</b>
 							</button>
-					</form>
-					<!-- Collapse a form when user click Lost your password? link-->
-					<p><a href="#showForm" data-toggle="collapse" aria-expanded="false" aria-controls="collapse">¿Olvidaste tu contraseña?</a></p>	
-					<div class="collapse" id="showForm">
-						<div class='well'>
-							<form action="password-recovery.php" method="post">
-								<div class="form-group">										
-									<input type="email" class="form-control" name="email" placeholder="Enter the email associated with the password." required>
-								</div>
-								<button type="submit" class="btn btn-dark">Recover Password</button>
-							</form>								
-						</div>
-					</div>
-											
-					<!-- <hr><p>¿Quieres crear una cuenta? <a href="index.html" title="Create an account">crear cuenta</a>.</p>								 -->
-				</div><!-- /.loginBox -->	
+                    </form>
+                    <!-- Collapse a form when user click Lost your password? link-->
+                    <p><a href="#showForm" data-toggle="collapse" aria-expanded="false" aria-controls="collapse">¿Olvidaste tu contraseña?</a></p>
+                    <div class="collapse" id="showForm">
+                        <div class='well'>
+                            <form action="password-recovery.php" method="post">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" placeholder="Enter the email associated with the password." required>
+                                </div>
+                                <button type="submit" class="btn btn-dark">Recover Password</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- <hr><p>¿Quieres crear una cuenta? <a href="index.html" title="Create an account">crear cuenta</a>.</p>								 -->
+                </div>
+                <!-- /.loginBox -->
 
             </div>
 
@@ -96,6 +96,3 @@
 </body>
 
 </html>
-
-
-

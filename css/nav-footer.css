@@ -1,12 +1,18 @@
-nav{
+:root {
+    --grisFooterText: #C7C8C9;
+    --grisFooter: #212327;
+    --verdeInstitucional: #00AB84;
+    --negro: black;
+    --blanco: white;
+}
+
+nav {
     background-color: var(--verdeInstitucional);
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: var(--blanco);
+.navbar-brand :hover {
+    background: none;
 }
-
-
 
 footer {
     background-color: var(--grisFooter);
@@ -66,4 +72,18 @@ hr {
     font-size: 14px;
     padding: 0;
     line-height: 36px;
+}
+
+.btn-light {
+    color: var(--blanco);
+    background-color: var(--verdeInstitucional);
+}
+
+@media screen and (max-width: 700px) {
+    hr {
+        display: none;
+    }
+    .col-lg-6 {
+        text-align: center;
+    }
 }

@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styleExamen.css">
+    <link rel="stylesheet" href="css/nav-footer.css">
     <!-- icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Examen final</title>
@@ -21,9 +21,9 @@
         <div id="footer-div">
             <div class="row ">
                 <div class="bg-line">
-                    <hr>
+                    <hr class="linea">
                 </div>
-                <div class="bg-warning">
+                <div class="">
                     <button class="btn btn-dark">
                         Arriba
                         <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -31,7 +31,7 @@
                     <!-- <hr> -->
                 </div>
                 <div class="bg-line">
-                    <hr>
+                    <hr class="linea">
                 </div>
             </div>
 
@@ -47,13 +47,13 @@
             <div class="row ">
                 <hr>
 
-                <div class="col-6 ">
+                <div class="col-lg-6 col-sm-12">
                     <p id="textLeft">
                         Copyright © 2017. Universidad Tecnológica de Cancún
                     </p>
                 </div>
 
-                <div class="col-6">
+                <div class="col-lg-6 col-sm-12">
                     <ul class="list-inline">
                         <li>
                             <ul class="contenido">
