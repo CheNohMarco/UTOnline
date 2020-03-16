@@ -13,6 +13,13 @@
         require ("navBar.php"); //Se carga el script externo.
     ?>
 
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/UTOnline/check-login.php">Inicio</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Clases online</li>
+  </ol>
+</nav>
+
     <div class="container">
 
         <div class="jumbotron jumbotron-fluid text-center">
@@ -47,8 +54,10 @@
                             <div class="card-body">
                                 <h5 class="card-title">Rubén Antonio Garcia Ruiz</h5>
                                 <input type="text" name="comentario" ;>
-
-                                <input type="submit" class="btn btn-light " value="Enviar" />
+                                <button type="submit" class="btn btn-light ">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                Enviar
+                                </button>
                                 <img src="img/hombre.png"
                                 width="100"
                                 height="70"
@@ -64,7 +73,10 @@
                             <div class="card-body">
                                 <h5 class="card-title">Luis Ricardo Díaz Chavez</h5>
                                 <input type="text" name="comentario" ;>
-                                <input type="submit" class="btn btn-light " value="Enviar" />
+                                <button type="submit" class="btn btn-light ">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                Enviar
+                                </button>
                                 <img src="img/hombre.png"
                                    
                                 width="100"
@@ -84,7 +96,10 @@
                                    
                                 <h5 class="card-title">Michel</h5>
                                 <input type="text" name="Comentario" ;>
-                                <input type="submit" class="btn btn-light " value="Enviar" />
+                                <button type="submit" class="btn btn-light ">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                Enviar
+                                </button>
                                 <img src="img/mujer.jpg"
                                    
                                 width="100"
@@ -101,7 +116,10 @@
                             <div class="card-body">
                                 <h5 class="card-title">Marco</h5>
                                 <input type="text" name="Comentario" ;>
-                                <input type="submit" class="btn btn-light " value="Enviar" />
+                                <button type="submit" class="btn btn-light ">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                Enviar
+                                </button>
                                 <img src="img/hombre.png"
                                    
                                 width="100"

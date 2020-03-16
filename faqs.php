@@ -8,7 +8,12 @@
         require ("navBar.php"); //Se carga el script externo.
     ?>
 
-
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/UTOnline/check-login.php">Inicio</a></li>
+    <li class="breadcrumb-item active" aria-current="page">FAQ's</li>
+  </ol>
+</nav>
     <div class="container">
 
         <div class="jumbotron jumbotron-fluid text-center">

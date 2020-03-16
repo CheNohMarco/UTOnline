@@ -5,9 +5,16 @@
 </head>
 
 <body>
-<?php
+    <?php   
         require ("navBar.php"); //Se carga el script externo.
     ?>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/UTOnline/check-login.php">Inicio</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Examen</li>
+  </ol>
+</nav>
 
     <!-- ////////////////////EXAMEN ONLINE/////////////////////// -->
     <div class="container">

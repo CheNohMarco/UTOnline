@@ -77,7 +77,7 @@ session_start();
 
 	<div class="row">
 		<div class="col-lg-6 col-sm-12">
-			<a href="#" class="text-decoration-none">
+			<a href="http://localhost/UTOnline/ClaseOnline.php" class="text-decoration-none">
 				<div class="card mb-3" style="max-width: 540px;">
 					<div class="row no-gutters">
 						<div class="col-md-4">
@@ -95,7 +95,7 @@ session_start();
 			</a>
 		</div>
 		<div class="col-lg-6 col-sm-12">
-			<a href="#" class="text-decoration-none">
+			<a href="http://localhost/UTOnline/ClaseOnline.php" class="text-decoration-none">
 				<div class="card mb-3" style="max-width: 540px;">
 					<div class="row no-gutters">
 						<div class="col-md-4">
@@ -113,7 +113,7 @@ session_start();
 			</a>
 		</div>
 		<div class="col-lg-6 col-sm-12">
-			<a href="#" class="text-decoration-none">
+			<a href="http://localhost/UTOnline/ClaseOnline.php" class="text-decoration-none">
 				<div class="card mb-3" style="max-width: 540px;">
 					<div class="row no-gutters">
 						<div class="col-md-4">
@@ -131,7 +131,7 @@ session_start();
 			</a>
 		</div>
 		<div class="col-lg-6 col-sm-12">
-			<a href="#" class="text-decoration-none">
+			<a href="http://localhost/UTOnline/ClaseOnline.php" class="text-decoration-none">
 				<div class="card" style="max-width: 540px;">
 					<div class="row no-gutters">
 						<div class="col-md-4">
