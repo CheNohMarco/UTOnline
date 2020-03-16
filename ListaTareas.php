@@ -33,7 +33,7 @@
 
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="card-body">
-                        <button type="button" class="btn btn-danger btn-lg btn-block">
+                        <button type="button" OnClick="message()"  class="btn btn-danger btn-lg btn-block">
                         <i class="fa fa-trash-o" aria-hidden="true"></i>    
                         Eliminar</button>
                         <button type="button" class="btn btn-warning btn-lg btn-block">
@@ -69,7 +69,7 @@
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                     <div class="card-body">
-                    <button type="button" class="btn btn-danger btn-lg btn-block">
+                    <button type="button" onclick="myFunction()" class="btn btn-danger btn-lg btn-block">
                         <i class="fa fa-trash-o" aria-hidden="true"></i>    
                         Eliminar</button>
                         <button type="button" class="btn btn-warning btn-lg btn-block">
@@ -135,7 +135,13 @@
             </div>
     </div>
 
+<script>
+
+    function message(){
+    alert("¿Esta seguro que desea eliminar el registro?");
+}
+</script>
 </body>
-<?php
-			require ("footer.php"); //Se carga el script externo.
+    <?php
+		require ("footer.php"); //Se carga el script externo.
 	?>
